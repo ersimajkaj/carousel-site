@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function () {
     bound: true,
     breakpoints: {
       1024: { perView: 2, focusAt: 'center', gap: 15 },
-      768: { perView: 1, focusAt: 0, gap: 0 } // no peeking on mobile
+      768: { perView: 1, focusAt: 0, gap: 0 } 
     }
   }).mount();
 });
